@@ -1,0 +1,19 @@
+Custom Non-Commercial & Misuse Prohibition License
+
+Copyright (c) 2025 Eren Karaoglu
+
+This software is provided under the following terms:
+
+Permitted uses
+- You may use, study, modify, and share this code for educational, archival, research, or other non-commercial purposes.
+- You may publish modified versions provided you include a clear credit to the original author and a copy of these terms.
+
+Prohibited uses
+- You may not use, adapt, or distribute this code or any derivative work for commercial purposes, including selling, sublicensing, offering as a paid service, or collecting revenue that is attributable to the code.
+- You may not use this code to develop, enable, or distribute tools intended to circumvent digital rights management, crack software, bypass access controls, facilitate piracy, or otherwise perform illegal or unauthorized activities.
+- You may not knowingly distribute copyrighted game files or other third-party content without the rightsholder's permission.
+
+Disclaimer & liability
+- This software is provided "as is", without warranty of any kind. The author is not liable for any damages, losses, or legal claims arising from use or misuse of the software.
+
+By using, copying or distributing this software you agree to these terms.

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PICO-8 Extractor Tool</title>
+
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="bg-dark text-light">
+
+  <a href="https://github.com/erenkaraoglu" target="_blank" id="github-link">@Juqka 2025</a>
+  <div style="position:fixed; bottom:10px; right:10px; color:white; font-size:12px; font-family:sans-serif; opacity:1; z-index:9999;">v1.0</div>
+
+
+  <div class="container py-5 text-center">
+    <h1 class="neon-text mb-3">PICO-8 Extractor</h1>
+    <p class="mb-5">Select your JSON Folder, Set the output path, then press "ᕕ( ᐛ )ᕗ"</p>
+
+    <div class="row justify-content-center align-items-center">
+      <div class="col-md-5 text-center">
+        <div class="button-container">
+          <button class="btn neon-button load-btn" style="width: 150px; height: 150px;">
+            📁
+          </button>
+          <p class="mt-3">Select JS Folder</p>
+        </div>
+      </div>
+
+      <div class="col-md-1 d-none d-md-block">
+        <div class="divider"></div>
+      </div>
+
+      <div class="col-md-5 text-center mt-4 mt-md-0">
+        <div class="button-container">
+          <button class="btn neon-button save-btn" style="width: 150px; height: 150px;">
+            💾
+          </button>
+          <p class="mt-3">Select Output Folder</p>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <button class="btn neon-button go-btn" style="width: 150px; height: 80px; font-size: 2rem;">
+        ᕕ( ᐛ )ᕗ
+      </button>
+    </div>
+
+    <div class="terminal">
+      <pre style="height: 80%;" id="terminal-output">Hello World! (/◕ヮ◕)/</pre>
+      <pre id="progress-bar"></pre>
+    </div>
+
+    <div class="progress-gif">
+      <img id="gif" src="images/succes.gif" alt="Loading..." />
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
