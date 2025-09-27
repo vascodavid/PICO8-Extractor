@@ -1,3 +1,5 @@
+![Main](images/view.png)
+
 ## Important usage notes
 
 This tool is provided to help recover and run certain game files that may sometimes be inaccessible, so people can play them on the web for educational or archival purposes.
